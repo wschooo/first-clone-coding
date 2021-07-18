@@ -1,0 +1,38 @@
+.reply {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 40px;
+  padding: 8px 20px;
+}
+.reply__column:last-child {
+  width: 600px;
+  height: 45px;
+  margin-left: 20px;
+  border: 1px solid var(--main-color);
+  background-color: #f8f8f8;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.reply__column:last-child input {
+  background-color: #f8f8f8;
+  border: none;
+}
+.reply__components {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+.reply__components i {
+  margin-left: 12px;
+}
+.reply__column:first-child i,
+.reply__components span:first-child {
+  opacity: 0.5;
+}
+.reply__components span:last-child {
+  color: var(--yellow);
+  font-size: 40px;
+}
